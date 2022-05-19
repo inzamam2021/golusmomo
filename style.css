@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Josefin+Sans:ital,wght@1,300;1,700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.photo
+{
+    border-radius: 50%;
+}
+.photo-pic
+{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+    bottom:800px;
+    border-radius: 50%;
+}
+.bg
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+  
+}
+
+.text1
+{
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+
+}
+.text2
+{
+  margin: 0 auto;
+  position: absolute;
+  top: 25%;
+  left: 280px;
+
+}
+.text3
+{
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  left: 210px;
+
+}
+.text4
+{
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  position: absolute;
+  bottom:30px;
+  left: 150px;
+
+}
+
+
+.video
+{
+    position: relative;
+    top: -600px;
+    left: 1000px;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 400px;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+
+  }
+  
+  .slide:nth-child(1) {
+    background: #D93B65;
+  }
+  
+  .slide:nth-child(2) {
+    background: #037E8C;
+  }
+  
+  .slide:nth-child(3) {
+    background: #36BF66;
+  }
+  
+  .slide:nth-child(4) {
+    background: #D9D055;
+  }
+  
+  .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  }
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  
+  .pics
+  {
+    height: 400px;
+    width: 400px;
+
+  }
+
+  .love
+  {
+    font-family: 'Happy Monkey', cursive;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-size: x-large;
+  }
+
+  .love1
+  {
+    font-family: 'Happy Monkey', cursive;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 700px;
+    right: 500px;
+    font-size: x-large;
+  }
+
+  .love2
+  {
+    font-family: 'Happy Monkey', cursive;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 700px;
+    left: 500px;
+    font-size: x-large;
+  }
+  
+
